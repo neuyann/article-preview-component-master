@@ -1,1 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Open+Sans:ital,wght@0,700;1,400&family=Poppins&display=swap');
 
+
+html {
+    box-sizing: border-box;}
+
+
+*, *::before, *::after {
+        box-sizing: inherit;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+body{
+    min-width: 1600px;
+    background-color: RGB(237, 242, 248);
+    font-family: Manrope;
+}
+
+.mainContainer {
+    margin: auto;
+    display: flex;
+    padding: 0;
+    width: 730px;
+    height: 280px;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 20px;
+
+}
+
+.leftContainer {
+    width: 285px;
+    height: 280px;
+    background-image: url('./images/drawers.jpg');
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.leftContainer img {
+    width: 100%;
+}
+
+.rightContainer {
+    background-color: white;
+    width: 445px;
+    height: 280px;
+    padding: 40px 40px 30px 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.author img {
+    margin-top: 5px;
+    width: 40px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 15px;
+}
+
+.rightContainer > p {
+    margin-bottom: 15px;
+}
+
+.authorContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h1{
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 0.7em;
+    color: lightgray;
+}
+
+span {
+    font-size: 0.7em;
+    font-weight: 500;
+}
+
+#shareButtonImg {
+    height: 15px;
+    width: 15px;
+}   
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: rgb(227, 233, 244);
+    border-radius: 30px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.hidden {
+    visibility: hidden;
+  }
+
+  .sharedSocial {
+    width: 245px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    background-color: #48556C;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 140px;
+    left: 980px;
+  }
+  .sharedSocial img{
+    cursor: pointer;
+    margin-top: 5px;
+  }
+
+  .sharedSocial p {
+    color: gray;
+    letter-spacing: 5px;
+  }
