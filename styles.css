@@ -18,7 +18,6 @@ body{
 }
 
 .mainContainer {
-    margin: auto;
     display: flex;
     padding: 0;
     width: 730px;
@@ -104,6 +103,7 @@ button:hover{
 }
 
 .hidden {
+    transition: opacity 0.5s ease-in 0.3s;
     visibility: hidden;
   }
 
@@ -124,7 +124,20 @@ button:hover{
     margin-top: 5px;
   }
 
+#square{
+    display: block;
+    position: absolute;
+    rotate: 45deg;
+    top: 51px;
+    left: 127px;
+
+    background-color: #48556C;
+    width: 20px;
+    height: 20px;
+}
   .sharedSocial p {
     color: gray;
     letter-spacing: 5px;
   }
+
+
