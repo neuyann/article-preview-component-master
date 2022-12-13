@@ -15,10 +15,12 @@ body{
     min-width: 1600px;
     background-color: RGB(237, 242, 248);
     font-family: Manrope;
+    text-align: center;
 }
 
 .mainContainer {
     display: flex;
+    margin: auto;
     padding: 0;
     width: 730px;
     height: 280px;
@@ -116,25 +118,27 @@ button:hover{
     justify-content: space-evenly;
     align-items: center;
     position: absolute;
-    top: 140px;
+    top: 130px;
     left: 980px;
   }
+
   .sharedSocial img{
     cursor: pointer;
     margin-top: 5px;
   }
 
-#square{
+#square {
     display: block;
     position: absolute;
     rotate: 45deg;
     top: 51px;
     left: 127px;
-
-    background-color: #48556C;
+    background-color: #48556C; 
     width: 20px;
     height: 20px;
-}
+    }
+
+
   .sharedSocial p {
     color: gray;
     letter-spacing: 5px;
