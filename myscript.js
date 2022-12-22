@@ -14,7 +14,6 @@ const showDiv = () =>  {
     social.classList.toggle("hidden");
   } 
  } else {social.classList.toggle("hidden")}
-  
 };
 
 button.addEventListener("click", showDiv);

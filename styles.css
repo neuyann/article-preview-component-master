@@ -11,7 +11,7 @@ html {
         margin-bottom: auto;
     }
 
-body{
+body {
     min-width: 1600px;
     background-color: RGB(237, 242, 248);
     font-family: Manrope;
@@ -23,7 +23,7 @@ body{
     padding: 0;
     width: 730px;
     height: 280px;
-    box-shadow: 0px 0px 10px grey;
+    box-shadow: 1px 3px 20px rgb(138, 146, 167);
     border-radius: 20px;
 
 }
@@ -69,17 +69,17 @@ body{
 
 
 h1{
-    font-size: 1em;
+    font-size: 1.25em;
     margin-bottom: 15px;
 }
 
 p{
-    font-size: 0.7em;
+    font-size: 0.9em;
     color: lightgray;
 }
 
 span {
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-weight: 500;
 }
 
@@ -130,7 +130,7 @@ button:hover{
     display: block;
     position: absolute;
     rotate: 45deg;
-    top: 51px;
+    top: 50px;
     left: 127px;
     background-color: #48556C; 
     width: 20px;
@@ -148,9 +148,9 @@ button:hover{
         min-width: auto;}
     .mainContainer {
         flex-direction: column;
-        margin: 20px;
+        margin: 40px 30px 30px 30px;
         padding: 0;
-        width: 285px;
+        width: 330px;
         height: auto;
         box-shadow: 0px 0px 10px grey;
         border-radius: 10px;
@@ -158,35 +158,45 @@ button:hover{
     }   
     .leftContainer{
         border-radius: 10px 10px 0 0;
-        width: 285px;
+        width: 330px;
         height: 200px;
     }
     .rightContainer{
         border-radius: 0 0 10px 10px;
         font-size: 0.7em;
-        width: 285px;
-        padding: 30px 30px 10px 30px;
+        width: 330px;
+        padding: 30px 30px 20px 30px;
         height: auto;
     }
 
     h1 {
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
     p{
-        font-size: 0.8em;}
+        font-size: 1em;}
 
     .rightContainer > p {
         margin-bottom: 20px;
+    }
+    .author > img {
+        margin-top: -5px;
+    }
+    span {
+        font-size: 1em;
+        font-weight: 500;
+    }
+    #date {
+        margin-top: 5px;
     }
     .authorContainer{
         z-index: 1;
     }
     .sharedSocial {
-        height: 65px;
-        top: 395px;
-        left: 28px;
-        width: 285px;
+        height: 70px;
+        top: 413px;
+        left: 38px;
+        width: 330px;
         border-radius: 0 0 10px 10px;
         justify-content: flex-start;
         gap: 5%;
@@ -195,7 +205,6 @@ button:hover{
     
     #square {
         display: none;
-
     }
 
     button {
