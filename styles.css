@@ -15,7 +15,6 @@ body{
     min-width: 1600px;
     background-color: RGB(237, 242, 248);
     font-family: Manrope;
-    text-align: center;
 }
 
 .mainContainer {
@@ -143,5 +142,65 @@ button:hover{
     color: gray;
     letter-spacing: 5px;
   }
+
+  @media (max-width: 990px) {
+    body{
+        min-width: auto;}
+    .mainContainer {
+        flex-direction: column;
+        margin: 20px;
+        padding: 0;
+        width: 315px;
+        height: auto;
+        box-shadow: 0px 0px 10px grey;
+        border-radius: 10px;
+
+    }   
+    .leftContainer{
+        border-radius: 10px 10px 0 0;
+        width: 315px;
+        height: 200px;
+    }
+    .rightContainer{
+        border-radius: 0 0 10px 10px;
+        font-size: 0.7em;
+        width: 315px;
+        padding: 30px 30px 20px 30px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1em;
+    }
+
+    p{
+        font-size: 0.8em;}
+
+    .rightContainer > p {
+        margin-bottom: 20px;
+    }
+
+    .sharedSocial {
+        height: 80px;
+        top: 420px;
+        left: 28px;
+        width: 315px;
+        border-radius: 0 0 10px 10px;
+        justify-content: flex-start;
+        z-index: 2;
+      }
+
+    #square {
+        display: none;
+
+    }
+
+    button {
+        z-index: 1;
+    }
+      
+    }
+  
+
 
 

@@ -6,3 +6,4 @@ const showDiv = () =>  {
 };
 
 button.addEventListener("click", showDiv);
+
