@@ -19,7 +19,7 @@ body{
 
 .mainContainer {
     display: flex;
-    margin: auto;
+    margin: 250px auto auto auto;
     padding: 0;
     width: 730px;
     height: 280px;
@@ -83,12 +83,12 @@ span {
     font-weight: 500;
 }
 
-#shareButtonImg {
+.shareButtonImg {
     height: 15px;
     width: 15px;
 }   
 
-button {
+.divButton {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +117,7 @@ button:hover{
     justify-content: space-evenly;
     align-items: center;
     position: absolute;
-    top: 130px;
+    top: 380px;
     left: 980px;
   }
 
@@ -150,7 +150,7 @@ button:hover{
         flex-direction: column;
         margin: 20px;
         padding: 0;
-        width: 315px;
+        width: 285px;
         height: auto;
         box-shadow: 0px 0px 10px grey;
         border-radius: 10px;
@@ -158,14 +158,14 @@ button:hover{
     }   
     .leftContainer{
         border-radius: 10px 10px 0 0;
-        width: 315px;
+        width: 285px;
         height: 200px;
     }
     .rightContainer{
         border-radius: 0 0 10px 10px;
         font-size: 0.7em;
-        width: 315px;
-        padding: 30px 30px 20px 30px;
+        width: 285px;
+        padding: 30px 30px 10px 30px;
         height: auto;
     }
 
@@ -179,26 +179,46 @@ button:hover{
     .rightContainer > p {
         margin-bottom: 20px;
     }
-
+    .authorContainer{
+        z-index: 1;
+    }
     .sharedSocial {
-        height: 80px;
-        top: 420px;
+        height: 65px;
+        top: 395px;
         left: 28px;
-        width: 315px;
+        width: 285px;
         border-radius: 0 0 10px 10px;
         justify-content: flex-start;
+        gap: 5%;
         z-index: 2;
       }
-
+    
     #square {
         display: none;
 
     }
 
     button {
-        z-index: 1;
+        position: relative;
+        z-index: 100;
     }
-      
+    .divButton2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        height: 32px;
+        background-color: RGB(109, 126, 154);
+        border-radius: 30px;
+        border: none;   
+    }
+    .shareButtonImg2 {
+        height: 15px;
+        width: 15px;
+        border: none;
+        border-radius: 30px;
+        filter: brightness(0) invert(1);
+    }
     }
   
 
