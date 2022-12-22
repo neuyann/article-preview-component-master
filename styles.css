@@ -83,12 +83,12 @@ span {
     font-weight: 500;
 }
 
-.shareButtonImg {
+#shareButtonImg {
     height: 15px;
     width: 15px;
 }   
 
-.divButton {
+button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,7 +150,7 @@ button:hover{
         flex-direction: column;
         margin: 20px;
         padding: 0;
-        width: 285px;
+        width: 315px;
         height: auto;
         box-shadow: 0px 0px 10px grey;
         border-radius: 10px;
@@ -158,14 +158,14 @@ button:hover{
     }   
     .leftContainer{
         border-radius: 10px 10px 0 0;
-        width: 285px;
+        width: 315px;
         height: 200px;
     }
     .rightContainer{
         border-radius: 0 0 10px 10px;
         font-size: 0.7em;
-        width: 285px;
-        padding: 30px 30px 10px 30px;
+        width: 315px;
+        padding: 30px 30px 20px 30px;
         height: auto;
     }
 
@@ -179,44 +179,26 @@ button:hover{
     .rightContainer > p {
         margin-bottom: 20px;
     }
-    .authorContainer{
-        z-index: 1;
-    }
+
     .sharedSocial {
-        height: 65px;
-        top: 395px;
+        height: 80px;
+        top: 420px;
         left: 28px;
-        width: 285px;
+        width: 315px;
         border-radius: 0 0 10px 10px;
         justify-content: flex-start;
-        gap: 5%;
         z-index: 2;
       }
-    
+
     #square {
         display: none;
 
     }
 
     button {
-        position: relative;
-        z-index: 100;
+        z-index: 1;
     }
-    .divButton2 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 32px;
-        height: 32px;
-        background-color: RGB(109, 126, 154);
-        border-radius: 30px;
-        border: none;
-    }
-    .shareButtonImg2 {
-        height: 15px;
-        width: 15px;
-        filter: brightness(0) invert(1);
-    }
+      
     }
   
 
